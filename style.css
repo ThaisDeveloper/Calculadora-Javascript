@@ -1,0 +1,76 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+input {
+    color: white;
+    padding: 17px;
+    outline: none;
+    font-size: 38px;
+    font-family: 'Ibarra Real Nova', serif;
+    border-radius: 25px;
+    display: flexbox;
+}
+
+main {
+    display: inline-block;
+}
+
+.maincolor {
+    background-color: black;
+}
+
+.num {
+    width: 64px;
+    height: 67px;
+}
+
+.text {
+    width: 160px;
+    height: 26px;
+    border-radius: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.text1 {
+    width: 24px;
+    height: 26px;
+    border-radius: 22px;
+    letter-spacing: 30%;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.blue {
+    background-color: green;
+}
+
+h1 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+}
+
+.pin {
+    background-color: green;
+}
+
+.gre {
+    background-color: green;
+}
+
+.ora {
+    background-color: green;
+}
+
+.pur {
+    background-color: green;
+}
