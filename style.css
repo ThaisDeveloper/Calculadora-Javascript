@@ -8,12 +8,12 @@ body {
 }
 
 input {
-    color: white;
-    padding: 17px;
+    color: black;
+    padding: 8px;
     outline: none;
     font-size: 38px;
     font-family: 'Ibarra Real Nova', serif;
-    border-radius: 25px;
+    border-radius: 30px;
     display: flexbox;
 }
 
@@ -22,25 +22,27 @@ main {
 }
 
 .maincolor {
-    background-color: black;
+    background-color: hotpink;
 }
 
 .num {
-    width: 64px;
+    width: 60px;
     height: 67px;
+    text-align: center;
 }
 
 .text {
-    width: 160px;
+    width: 165px;
     height: 26px;
     border-radius: 22px;
-    letter-spacing: 5px;
+    letter-spacing: 15px;
     text-align: center;
     margin-bottom: 12px;
 }
 
 .text1 {
-    width: 24px;
+    color: white;
+    width: 44px;
     height: 26px;
     border-radius: 22px;
     letter-spacing: 30%;
@@ -50,33 +52,41 @@ main {
 }
 
 .blue {
-    background-color: green;
+    background-color: gray;
 }
 
 h1 {
-    color: white;
+    color: hotpink;
     font-family: 'Oswald', sans-serif;
     display: flex;
 }
 
 .pin {
-    background-color: green;
+    background-color: gray;
 }
 
 .gre {
-    background-color: green;
+    background-color: gray;
 }
 
 .ora {
-    background-color: green;
+    background-color: gray;
 }
 
 .pur {
-    background-color: green;
+    background-color: gray;
 }
 
 h3 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    color: hotpink;
+}
+
+.container{
+    padding:20px;
     color: white;
+    border-color: black;
+    background-color: white;
+    border-radius: 40px;
 }
